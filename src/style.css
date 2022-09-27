@@ -1,0 +1,157 @@
+/* reset styles*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial;
+}
+
+/* header styles */
+
+.heading{
+    margin-bottom:50px;
+}
+
+.heading h1{
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+/* Trafic control fsm styles */
+.trafic-control-box{
+    height:500px;
+    position: relative;
+}
+
+.buttons-box-1, .buttons-box-2{
+    display: flex;
+    align-items: center;
+}
+
+.buttons-box-2{
+    margin-top:178px;
+}
+
+.box3{
+    margin:0 auto;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    font-weight: 500;
+    font-size:20px;
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* colors for lights which will be added dynamically */
+.red{
+    background-color: red;
+    color:#fff;
+}
+
+.yellow{
+    background-color: yellow;
+    color:black;
+}
+
+.green{
+    background-color: green;
+    color:white;
+}
+
+
+
+
+
+/* Arrows styles */
+
+.lines-box{
+    position: relative;
+}
+
+.line{
+    height: 2px;
+    width:250px;
+    background-color: black;
+}
+
+.line2{
+    position: absolute;
+    left:-11px;
+    top:107px;
+    transform: rotate(60deg);
+}
+.line3{
+    position: absolute;
+    right:-11px;
+    top:107px;
+    transform: rotate(-60deg);
+}
+
+.arrow{
+    display: inline-block;
+    width: 15px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+}
+
+.arrow1{
+    top:44px;
+    left:338px;
+    transform: rotate(45deg);
+}
+.arrow2{
+    top:53px;
+    left:338px;
+    transform: rotate(-45deg);
+}
+
+.arrow3{
+    top:308px;
+    left:265px;
+    transform: rotate(90deg);
+}
+
+.arrow4{
+    top:312px;
+    left:273px;
+    transform: rotate(150deg);
+}
+
+.arrow5{
+    top:107px;
+    left:43px;
+    transform: rotate(90deg);
+}
+
+.arrow6{
+    top:103px;
+    left:52px;
+    transform: rotate(30deg);
+}
+
+
+
+h3{
+    margin-top:30px;
+    text-align: center;
+}
